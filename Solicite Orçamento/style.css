@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+
+
+/*Referente a todo o html*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Body completo*/
+body{
+    background-image: url(/images/back1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+}
+
+
+
+/*logo + minititulo + titulo principal*/
+.cabeçalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 24px;
+}
+
+/*imagem principal, logo topo*/
+.logo{
+    border-radius: 50%;
+}
+
+/*texto 1*/
+.mini-titulo{
+    font-family: Righteous;
+    font-size: 18px;
+    color: cornsilk;
+}
+
+
+.imgp{
+    width: 500px;
+    height: 550px;
+    border-radius: 8px;
+   
+}
+
+/*título topo*/
+.titulo-principal{
+    font-family: Righteous;
+    font-size: 38px;
+    color: cornsilk;   
+}
+
+
+/*Main(conteudo) - conteudo p*/
+.conteudo-p{
+    color: cornsilk;
+    font-family: Signika ;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+
+
+.conteudo{
+    width: 100%;
+    height: 90%;
+    align-items: center;
+}
+
+
+
+
+
+/*form - fildseat*/
+fieldset{
+    border: 0;
+}
+
+form{
+    width: 500px;
+    display: flex;
+    align-self: flex-end;
+    left: 50%;
+    flex-direction: column;
+}
+
+select{
+    width: 120px;
+}
+
+.grupo::after{
+    clear: both;
+}
+/* ::after cria um pseudo-elemento que é o último filho do elemento selecionado. Muitas vezes é usado para adicionar e melhorar o conteúdo de um elemento como a propriedade content . É inline por padrão.*/
+
+textarea{
+    width: 60%;
+}
+
+.campo{
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-campo{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 30px;
+    padding:6px;
+}
+.campo1{
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: cornsilk;
+    display: flex;
+    justify-content: center;
+}
+
+fieldset .grupo .campo{
+    margin-right: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.campo input[type="text"], .campo input [type="email"], .campo textarea {
+    padding: 0.2em; 
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: cornsilk;   
+}
+
+.caixa-escrita{
+    height: 50px;
+}
+
+
+
+/*botão*/
+.button{
+    font-size: 1.2em;
+    background: cornsilk;
+    border: 0;
+    margin-bottom: 1em;
+    color: blue;
+    padding: 10px 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    align-self: center;
+    border-radius: 8px;
+}
+
+.button:hover{
+    background: silver;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+.button, select{
+    cursor: pointer;
+}
+
+
+
+/*footer*/
+.rodape-image{
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px; 
+}

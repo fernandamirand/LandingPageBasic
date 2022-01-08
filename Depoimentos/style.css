@@ -1,0 +1,89 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/images/back1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 24px;
+    color: cornsilk;
+}
+
+/*imagem principal, logo topo*/
+.logo{
+    border-radius: 50%;
+}
+
+.mini-titulo{
+    font-family: Righteous;
+    font-size: 18px;
+    color: cornsilk;
+}
+
+
+.titulo-principal{
+    font-family: Righteous;
+}
+
+.p1{
+    font-family: Signika;
+    color: cornsilk;
+    font-size: 15px;
+    text-align: center;
+}
+
+.imgp{
+    width: 400px;
+    height: 350px;
+    border-radius: 8%;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+    
+    
+}
+
+.text-p{
+    font-family: Righteous;
+    color: cornsilk;
+    font-size: 15px;
+    text-align: justify;
+    width: 320px;
+    display: flex;
+    align-self: flex-end;
+    left: 50%;
+    flex-direction: column;
+    margin-left: 2em;
+   
+
+}
+
+.rodape-image{
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px; 
+}
